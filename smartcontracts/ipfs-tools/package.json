@@ -1,0 +1,22 @@
+{
+  "name": "good4work-ipfs-tools",
+  "version": "1.0.0",
+  "description": "IPFS utilities for Good4Work NFT project",
+  "main": "index.js",
+  "scripts": {
+    "mint": "node mint-cli.js mint"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "web3.storage": "^4.5.4",
+    "commander": "^11.0.0",
+    "inquirer": "^8.2.5",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "MIT"
+}
